@@ -1,0 +1,32 @@
+
+# Parcial AREP – Servidor HTTP
+
+Este proyecto corresponde a un parcial donde se implementó un **servidor HTTP** capaz de escuchar peticiones y responder consultas a través de URIs específicas.  
+
+---
+
+## Descripción de la actividad
+El servidor se encarga de manejar solicitudes enviadas mediante rutas definidas, validando los enlaces y retornando las respuestas correspondientes.
+
+---
+
+## Enlaces válidos
+
+- `http://localhost:36000/add?key=apellido&value=amaya`  
+
+- `http://localhost:36000/getKv?key=apellido&value=amaya`  
+
+- `http://localhost:36000/setKv?key=apellido&value=amaya`  
+
+---
+
+##  Ejecución del código
+
+Para correr el servidor, utiliza el siguiente comando en la raíz del proyecto:
+
+```bash
+java -cp target/classes edu.edi.arep.parcial.HttpServer
+```
+
+## Video Explicativo
+[![Video explicativo del servidor](https://img.youtube.com/vi/Vcjd7q8ZweA/mqdefault.jpg)](https://www.youtube.com/watch?v=Vcjd7q8ZweA)
